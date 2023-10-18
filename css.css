@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to top, #010326, #F25757, #F28749, #F2AC57, #F2CD5C);
+    min-height: 100vh;
+}
+
+.digivice{
+    border-radius: 10px;
+    background-color: #01032633;
+    box-shadow: #0103267a 0px 3px 4px 3px;
+    display: inline-block;
+    margin-top: 2%;
+    position: relative;
+}
+
+.digivice-img{
+    max-width: 100%;
+    max-width: 300px;
+}
+
+.digimon{
+    position: absolute;
+    width: 100px;
+    border-radius: 5%;
+    right: 40%;
+    top: 25%;
+    transform: translate(5%, -25%);
+}
+
+h1{
+    box-shadow: rgba(0, 0, 0, 0.479) 0px 3px 2px 1px;
+    position: absolute;
+    width: 300px;
+    max-width: 300px;
+    border-radius: 10px 10px 0px 0px;
+    color: rgb(214, 214, 214);
+    background-color: #010326;
+}
+
+.estagio{
+    text-transform: capitalize;
+}
+
+.diginome{
+    text-transform: capitalize;
+}
+
+.btn-search{
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-color: rgba(0, 0, 0, 0.856);
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.219) 0px 2px 2px 2px;
+}
+
+.prev{
+    margin-bottom: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 3px;
+    border: 3px solid rgba(0, 0, 0, 0.856);
+    box-shadow: rgba(0, 0, 0, 0.219) 0px 1px 2px 2px;
+    font-weight: 600;
+}
+
+.next{
+    box-shadow: rgba(0, 0, 0, 0.219) 0px 1px 2px 2px;
+    padding: 3px;
+    font-size: 15px;
+    border: 3px solid rgba(0, 0, 0, 0.856);
+    margin-bottom: 5px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transition: ease 0.2s;
+    background-color: #F25757;
+    box-shadow: #0103263f inset 0px 5px 2px 2px;
+    color: rgba(0, 0, 0, 0.795);
+}

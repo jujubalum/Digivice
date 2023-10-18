@@ -1,2 +1,0 @@
-# Digivice
-Digivice com pokémon
